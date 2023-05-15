@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/winter');
+
+
+
+body {
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background-image: url("file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Snow%20Effect%20Wallpaper/Images/village-5887478_1280.jpg");
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* If you want to change the site height you can remove overflow-y */
+    /* pureSnow will automatically detect height of body tag */
+    overflow-y: hidden;
+    color: white;
+     
+                                                
+}
+
+ button {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(#fffafa, #fffafa); /* Workaround for Chromium's selective color inversion */
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px whitesmoke);
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Winter', sans-serif;
+}   
+
+#footer {
+    padding: 20px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
