@@ -112,5 +112,3 @@ window.onload = function() {
     styleSnow(snowflakesCount);
     createSnow(snowflakesCount);
 };
-
-// TODO add progress bar for slower clients
